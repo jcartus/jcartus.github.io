@@ -14,3 +14,7 @@ navigation:
     url: /
   - title: Privacy Policy
     url: /privacy-policy/
+
+apps:
+  - title: "ikuzo!"
+    url: /apps/ikuzo/

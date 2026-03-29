@@ -67,6 +67,65 @@ nav a.active {
   color: var(--color-accent);
 }
 
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.4rem 0;
+  min-width: 140px;
+  z-index: 100;
+  flex-direction: column;
+  gap: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-menu li {
+  padding: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.4rem 1rem;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--color-border);
+  color: var(--color-accent);
+}
+
+.dropdown:hover .dropdown-toggle,
+.dropdown:focus-within .dropdown-toggle {
+  color: var(--color-accent);
+}
+
 /* Main content */
 main {
   flex: 1;
