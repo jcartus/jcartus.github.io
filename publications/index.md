@@ -60,19 +60,6 @@ description: Publications by jcartus
 	</article>
 
 	<article class="publication-entry">
-		<div class="publication-figure publication-figure--empty">
-			<div class="publication-placeholder">No TOC figure available</div>
-		</div>
-		<div class="publication-content">
-			<p class="publication-meta">Preprint, 2023</p>
-			<h2>The impact of static distortion waves on superlubricity</h2>
-			<p class="publication-authors">Lukas Hörmann, Johannes J. Cartus, and Oliver T. Hofmann</p>
-			<p>Friction is a major source of energy loss in mechanical devices, and incommensurate interfaces are often assumed to facilitate superlubricity. This preprint introduces a machine-learned interatomic potential for large organic/metal interface models and shows that static distortion waves can suppress superlubric behavior while also suggesting routes to engineer interfaces where those waves are avoided.</p>
-			<p class="publication-links"><a href="https://doi.org/10.48550/arXiv.2304.12427">DOI: 10.48550/arXiv.2304.12427</a></p>
-		</div>
-	</article>
-
-	<article class="publication-entry">
 		<div class="publication-figure">
 			<img src="https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&amp;imageInfo.ImageIdentifier.ManuscriptID=D2NA00851C&amp;imageInfo.ImageIdentifier.Year=2023" alt="Graphical abstract for Polymorphism mediated by electric fields">
 		</div>
@@ -86,19 +73,6 @@ description: Publications by jcartus
 	</article>
 
 	<article class="publication-entry">
-		<div class="publication-figure publication-figure--empty">
-			<div class="publication-placeholder">No TOC figure available</div>
-		</div>
-		<div class="publication-content">
-			<p class="publication-meta">Preprint, 2023</p>
-			<h2>Polymorphism mediated by electric fields: A first principles study on organic/inorganic interfaces</h2>
-			<p class="publication-authors">Johannes J. Cartus, Andreas Jeindl, Anna Werkovits, Lukas Hörmann, and Oliver T. Hofmann</p>
-			<p>This ChemRxiv preprint studies how electric fields can be used as an additional thermodynamic handle for interface growth. For TCNE on Cu(111), it shows that field-induced changes in charge transfer, screening, and polarizability can substantially alter the relative stability of lying and standing polymorphs.</p>
-			<p class="publication-links"><a href="https://doi.org/10.26434/chemrxiv-2022-q6s7p-v2">DOI: 10.26434/chemrxiv-2022-q6s7p-v2</a></p>
-		</div>
-	</article>
-
-	<article class="publication-entry">
 		<div class="publication-figure">
 			<img src="https://pubs.acs.org/cms/10.1021/acs.jpca.2c08696/asset/images/medium/jp2c08696_0007.gif" alt="Abstract figure for Autonomous Single-Molecule Manipulation Based on Reinforcement Learning">
 		</div>
@@ -108,19 +82,6 @@ description: Publications by jcartus
 			<p class="publication-authors">Bernhard Ramsauer, Grant J. Simpson, Johannes J. Cartus, Andreas Jeindl, Victor Garcda-Lf3pez, James M. Tour, Leonhard Grill, and Oliver T. Hofmann</p>
 			<p>This work uses reinforcement learning to automate single-molecule manipulation in the electric field of a scanning tunneling microscope. After roughly 2250 training iterations, the agent reliably moves a dipolar molecule toward arbitrary target positions while simultaneously revealing directional constraints and asymmetric torque around the molecular dipole.</p>
 			<p class="publication-links"><a href="https://doi.org/10.1021/acs.jpca.2c08696">DOI: 10.1021/acs.jpca.2c08696</a></p>
-		</div>
-	</article>
-
-	<article class="publication-entry">
-		<div class="publication-figure publication-figure--empty">
-			<div class="publication-placeholder">No TOC figure available</div>
-		</div>
-		<div class="publication-content">
-			<p class="publication-meta">Preprint, 2022</p>
-			<h2>Controlling the polymorphism of organic/inorganic interfaces with electric fields</h2>
-			<p class="publication-authors">Johannes J. Cartus, Andreas Jeindl, Anna Werkovits, Lukas Hörmann, and Oliver T. Hofmann</p>
-			<p>This earlier ChemRxiv version develops the same core argument later published in Nanoscale Advances: electric fields provide a practical extra lever to stabilize otherwise inaccessible interface polymorphs. Using first-principles calculations and structure search for TCNE on Cu(111), it shows how the growth window for desired phases can be shifted meaningfully.</p>
-			<p class="publication-links"><a href="https://doi.org/10.26434/chemrxiv-2022-q6s7p">DOI: 10.26434/chemrxiv-2022-q6s7p</a></p>
 		</div>
 	</article>
 
