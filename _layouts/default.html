@@ -12,18 +12,17 @@
     <nav>
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <ul>
-        {% for item in site.navigation %}
         <li>
-          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
-            {{ item.title }}
-          </a>
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
         </li>
-        {% endfor %}
         <li class="dropdown">
           <a href="#" class="dropdown-toggle">Apps &#9660;</a>
           <ul class="dropdown-menu">
             <li><a href="{{ '/apps/ikuzo/' | relative_url }}">ikuzo!</a></li>
           </ul>
+        </li>
+        <li>
+          <a href="{{ '/privacy-policy/' | relative_url }}"{% if page.url == '/privacy-policy/' %} class="active"{% endif %}>Privacy Policy</a>
         </li>
       </ul>
     </nav>
