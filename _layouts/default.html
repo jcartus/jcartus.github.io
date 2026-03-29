@@ -19,6 +19,18 @@
           </a>
         </li>
         {% endfor %}
+        <li class="dropdown">
+          <button class="dropdown-toggle" aria-haspopup="true">Apps ▾</button>
+          <ul class="dropdown-menu">
+            {% for app in site.apps %}
+            <li>
+              <a href="{{ app.url | relative_url }}"{% if page.url contains app.url %} class="active"{% endif %}>
+                {{ app.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
       </ul>
     </nav>
   </header>
