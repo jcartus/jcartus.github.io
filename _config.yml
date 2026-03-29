@@ -1,0 +1,16 @@
+title: jcartus
+description: Personal website
+baseurl: ""
+url: "https://jcartus.github.io"
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+
+navigation:
+  - title: Home
+    url: /
+  - title: Privacy Policy
+    url: /privacy-policy/
