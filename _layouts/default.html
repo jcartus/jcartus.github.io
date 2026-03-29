@@ -13,11 +13,26 @@
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <ul>
         {% for item in site.navigation %}
+        {% if item.dropdown %}
+        <li class="has-dropdown">
+          <span class="nav-dropdown-toggle" tabindex="0">{{ item.title }}</span>
+          <ul class="dropdown">
+            {% for child in item.dropdown %}
+            <li>
+              <a href="{{ child.url | relative_url }}"{% if page.url == child.url %} class="active"{% endif %}>
+                {{ child.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
         <li>
           <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>
             {{ item.title }}
           </a>
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </nav>
